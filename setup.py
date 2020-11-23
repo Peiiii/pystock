@@ -47,16 +47,16 @@ version = get_version()
 print("version:", version)
 setuptools.setup(
     executable=True,
-    name="pystock",  # Replace with your own username
+    name="wkstock",  # Replace with your own username
     version=version,
     author="WangPei",
     author_email="1535376447@qq.com",
     description="python utils for stock research.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="http://github.com/Peiiii/pystock",
+    url="http://github.com/Peiiii/wkstock",
     packages=packages,
-    package_dir={'pystock': 'pystock'},
+    package_dir={'wkstock': 'wkstock'},
     install_requires=[
         'numpy',
         'pandas',
@@ -64,12 +64,12 @@ setuptools.setup(
     ],
     entry_points={
         'console_scripts': [
-            'pystock = pystock.clitools.cli:main',
+            'wkstock = wkstock.clitools.cli:main',
         ]
     },
     include_package_data=True,
     package_data={
-        'pystock': [
+        'wkstock': [
             'data/*', 'data/*/*', 'data/*/*/*', 'data/*/*/*/*', 'data/*/*/*/*/*', 'data/*/*/*/*/*/*',
             'data/*/*/*/*/*/*/*',
         ]

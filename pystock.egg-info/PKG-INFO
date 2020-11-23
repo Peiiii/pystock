@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wkstock
+Version: 0.0.0.2
+Summary: python utils for stock research.
+Home-page: http://github.com/Peiiii/wkstock
+Author: WangPei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Description: # wkstock
+        python utils for stock research.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

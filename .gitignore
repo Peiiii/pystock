@@ -5,4 +5,4 @@ scripts/**/*
 dist/**/*
 build/**/*
 local/**/*
-pystock.egg-info/**/*
+wkstock.egg-info/**/*
