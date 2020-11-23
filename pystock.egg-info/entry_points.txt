@@ -1,3 +1,0 @@
-[console_scripts]
-wkstock = wkstock.clitools.cli:main
-
