@@ -47,7 +47,7 @@ def gen_stock_info(path=None):
 
 # gen_stock_info()
 # print(time.time())
-def load_stock_info(path=None):
+def load_china_stock_info(path=None):
     ref_time=1606138638.9840372
     path=path or _get_default_stock_info_path(ref_time)
     with open(path,'r',encoding='utf-8') as f:
@@ -55,6 +55,6 @@ def load_stock_info(path=None):
     return stock_info
 
 def get_stock_codes():
-    stocks=load_stock_info()
+    stocks=load_china_stock_info()
     codes=list(stocks.keys())
     return codes

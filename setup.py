@@ -60,7 +60,8 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'pandas',
-        'tushare'
+        'tushare',
+        'pandas_datareader'
     ],
     entry_points={
         'console_scripts': [
